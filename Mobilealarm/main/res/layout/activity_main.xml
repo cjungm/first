@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="반드시 일어나자"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="50dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:text="" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/selector_pressed"
+            android:text="일반알람" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@drawable/selector_pressed"
+            android:text="지옥알람" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_selected"
+            android:text="홈" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_pressed"
+            android:text="일반 알람" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_pressed"
+            android:text="지옥 알람" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_pressed"
+            android:text="설정" />
+    </LinearLayout>
+
+    <!--selector_pressed-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|left"
+            android:text="selector pressed => "
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/selector_pressed"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_pressed"
+            android:text="Hello World!"
+            android:textColor="#ffffff"></Button>
+    </LinearLayout>
+
+    <!--selector_focused-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|left"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="selector focused => "/>
+        <EditText
+            android:id="@+id/selector_focused"
+            android:layout_width="140dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_height="50dp"
+            android:text="Hello World!"
+            android:background="@drawable/selector_focused">
+
+        </EditText>
+    </LinearLayout>
+
+    <!--selector_selected-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|left"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="selector selected => "/>
+        <TextView
+            android:id="@+id/selector_selected"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="Hello World!"
+            android:background="@drawable/selector_selected">
+        </TextView>
+    </LinearLayout>
+
+    <!--selector_endabled-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|left"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="selector enable => "/>
+        <TextView
+            android:id="@+id/selector_enabled"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="Hello World!"
+            android:background="@drawable/selector_endabled">
+        </TextView>
+    </LinearLayout>
+
+    <!--selector_checked-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical|left"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="selector chcked => "/>
+        <CheckBox
+            android:id="@+id/selector_checked"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:background="@drawable/selector_checked"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text="Hello World!">
+        </CheckBox>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

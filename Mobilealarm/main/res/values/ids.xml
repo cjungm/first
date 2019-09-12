@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="selector_selected" type="id" />
+    <item name="selector_enabled" type="id" />
+    <item name="selector_focused" type="id" />
+    <item name="button1" type="id" />
+    <item name="button2" type="id" />
+    <item name="button3" type="id" />
+    <item name="view2" type="id" />
+    <item name="msteps" type="id" />
+    <item name="mcal" type="id" />
+</resources>
