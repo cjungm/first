@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/w"
+        android:title="submenu1">
+        <menu>
+            <item android:title="apple"/>
+            <item android:title="banana"/>
+            <item android:title="lemon"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/d"
+        android:title="submenu2">
+        <menu>
+            <item android:title="사과"/>
+            <item android:title="배"/>
+            <item android:title="복숭아"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/c"
+        android:title="submenu3"
+        />
+
+
+</menu>
