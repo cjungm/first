@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--LinearLayout 사용하기3-->
+    <!--각각의 TextView에 textColor, textSize, background 지정하기-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="#999"
+            android:textSize="20sp"
+            android:padding="7dp"
+            android:background="#984577"/>
+        <!-- 글자크기단위는 가급적 sp,  뷰 크기 단위는 dp 사용 추천-->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff0">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_weight="1"
+            android:background="#8B8"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_weight="1"
+            android:background="#44F"
+            android:layout_margin="6dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_weight="1"
+            android:background="#3a8"/>
+
+    </LinearLayout>
+
+</LinearLayout>
