@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Music_player">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:text="MediaPlayer"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="144dp"
+        android:layout_height="82dp"
+        android:text="시작"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="140dp"
+        android:layout_height="82dp"
+        android:text="일시정지"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="139dp"
+        android:layout_height="82dp"
+        android:text="재시작"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="136dp"
+        android:layout_height="82dp"
+        android:text="종료"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:visibility="invisible" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="72dp" />
+
+</LinearLayout>
