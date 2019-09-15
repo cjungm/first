@@ -1,0 +1,2 @@
+﻿While_if.obj : error LNK2005: _main이(가) Do_while.obj에 이미 정의되어 있습니다.
+C:\Users\CJM\source\repos\P001\Debug\P001.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
